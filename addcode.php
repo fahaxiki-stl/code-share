@@ -65,7 +65,7 @@
 
     function data_insert($title, $author, $text)
     {
-        $conn = new mysqli("localhost", "root", "Lllllan@0424", "code");
+        $conn = new mysqli("localhost", "root", "", "code");
         mysqli_query($conn, "set character set 'utf8'");
         mysqli_query($conn, "set names 'utf8'");
 
