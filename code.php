@@ -20,7 +20,7 @@
     header("Content-Type:text/html;charset=utf-8");
 
     if ($_SERVER["REQUEST_METHOD"] == "GET") {
-        $conn = new mysqli("localhost", "root", "Lllllan@0424", "code");
+        $conn = new mysqli("localhost", "root", "", "code");
         mysqli_query($conn, "set character set 'utf8'");
         mysqli_query($conn, "set names 'utf8'");
 
